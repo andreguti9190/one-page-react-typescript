@@ -1,3 +1,4 @@
+import "./Content.css";
 
 interface ContentProps {
     tag: number;
@@ -26,6 +27,7 @@ function Content(props: ContentProps) {
     return (
         <>
             <div className="content">
+                <img src="./logo.jpg" alt="" />
                 <h1>{tag[props.tag].name}</h1>
                 <p>{tag[props.tag].content}</p>
             </div>

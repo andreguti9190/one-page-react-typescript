@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    list-style-type: none;
+}
+.listElement{
+    padding: 10px;
+}
+.a{
+    color: #fff;
+    text-decoration: none;
+}
+.a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:750px) {
+    .list {
+        display: none;
+    }
+}
